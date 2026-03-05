@@ -75,6 +75,22 @@ An **Actual vs Predicted Price plot** is used to visualize how well the model pr
 
 ---
 
+## Example Prediction
+
+Example property:
+
+- Location: Electronic City
+- Size: 2 BHK
+- Total Sqft: 1056
+- Bathrooms: 2
+- Balcony: 1
+
+Predicted Price: ~39 Lakhs
+
+The model predicts the estimated price based on property features such as size, square footage, number of bathrooms, and balconies.
+
+---
+
 ## Conclusion
 
 The Linear Regression model predicts Bengaluru house prices based on property features such as square footage, number of bathrooms, and balconies.
