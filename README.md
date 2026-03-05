@@ -10,10 +10,26 @@ The project demonstrates a complete machine learning workflow including data pre
 
 The dataset contains information about Bengaluru properties including:
 
+- Area type
+- Availability
+- Location
+- House size (BHK)
 - Total square footage
 - Number of bathrooms
 - Number of balconies
 - House price
+
+Dataset file:
+
+**Bengaluru_House_Data.csv (13,000+ property records)**
+
+### Dataset Preview
+
+| area_type | availability | location | size | total_sqft | bath | balcony | price |
+|----------|--------------|----------|------|-----------|------|--------|------|
+| Super built-up Area | 19-Dec | Electronic City | 2 BHK | 1056 | 2 | 1 | 39.07 |
+| Plot Area | Ready To Move | Chikka Tirupathi | 4 Bedroom | 2600 | 5 | 3 | 120 |
+| Built-up Area | Ready To Move | Uttarahalli | 3 BHK | 1440 | 2 | 3 | 62 |
 
 The target variable for the model is **price**.
 
@@ -21,11 +37,11 @@ The target variable for the model is **price**.
 
 ## Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
 
 ---
 
@@ -33,13 +49,13 @@ The target variable for the model is **price**.
 
 The project follows a standard machine learning pipeline:
 
-1. Data loading
-2. Data preprocessing
-3. Feature selection
-4. Train/Test split
-5. Feature scaling
-6. Linear Regression model training
-7. Model evaluation
+1. Data loading  
+2. Data preprocessing  
+3. Feature selection  
+4. Train/Test split  
+5. Feature scaling  
+6. Linear Regression model training  
+7. Model evaluation  
 
 ---
 
@@ -55,7 +71,7 @@ Model performance is evaluated using:
 
 ## Visualization
 
-An **Actual vs Predicted price plot** is used to visualize how well the model predicts house prices.
+An **Actual vs Predicted Price plot** is used to visualize how well the model predicts house prices.
 
 ---
 
